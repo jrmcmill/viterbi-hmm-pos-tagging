@@ -330,7 +330,7 @@ class ViterbiPOS:
 
                         except KeyError:  # else treat as unseen word
                             if word not in self.known:
-                                # using good-turing smoothing
+                                # using laplace smoothing
                                 lex_prob = 1 / self.word_count  # store unseen lex prob
                             else:
                                 lex_prob = 0  # since word exists without tag

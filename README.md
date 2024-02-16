@@ -10,4 +10,4 @@ Each line in the file is a sentence such that each word takes the form of "raw_t
 
 For example, "mortgage/NN" and "payments/NNS" are a noun (NN) and plural noun (NNS), respectively. There are also symbol tags for punctuation, like ",/," for commas.
 
-For handling unseen words, Good-Turing smoothing is estimated.
+For handling unseen words, Laplace smoothing is employed.
